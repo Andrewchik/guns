@@ -6,18 +6,7 @@
 .hide + label ~ div{
     display: none;
 }
-.hide1 {
-    display: none; 
-}
-.hide1 + label ~ div{
-    display: none;
-}
-.hide2 {
-    display: none; 
-}
-.hide2 + label ~ div{
-    display: none;
-}
+
 
 /* оформляем текст label */
 .hide + label {
@@ -47,53 +36,15 @@
 
 
 
-.hide1 + label {
-    border-bottom: 1px dotted green;
-    padding: 0;
-    color: green;
-    cursor: pointer;
-    display: inline-block; 
-}
-/* вид текста label при активном переключателе */
-.hide1:checked + label {
-    color: red;
-    border-bottom: 0;
-}
-/* когда чекбокс активен показываем блоки с содержанием  */
-.hide1:checked + label + div {
-    display: block; 
-    background: #efefef;
-    -moz-box-shadow: 3px 3px 3px 3px #7d8e8f;
-    -webkit-box-shadow: 3px 3px 3px 3px #7d8e8f;
-    box-shadow: 3px 3px 3px 3px #7d8e8f;
-    padding: 10px; 
-}
 
-
-
-.hide2 + label {
-    border-bottom: 1px dotted green;
-    padding: 0;
-    color: green;
-    cursor: pointer;
-    display: inline-block; 
-}
-/* вид текста label при активном переключателе */
-.hide2:checked + label {
-    color: red;
-    border-bottom: 0;
-}
-/* когда чекбокс активен показываем блоки с содержанием  */
-.hide2:checked + label + div {
-    display: block; 
-    background: #efefef;
-    -moz-box-shadow: 3px 3px 3px 3px #7d8e8f;
-    -webkit-box-shadow: 3px 3px 3px 3px #7d8e8f;
-    box-shadow: 3px 3px 3px 3px #7d8e8f;
-    padding: 10px; 
-}
 
 /* demo контейнер */
-/* .demo {
+ .demo {
     margin: 5% 10%;
-} */
+} 
+
+.mobilityImg{
+    width: 100%;
+height: 100%;
+    object-fit: cover; 
+}
